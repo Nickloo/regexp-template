@@ -4,12 +4,14 @@
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha --reporter spec",
     "build": "tsc"
   },
   "author": "nickloo",
   "license": "ISC",
   "devDependencies": {
+    "chai": "^4.3.0",
+    "mocha": "^8.2.1",
     "typescript": "^4.1.3"
   }
 }
