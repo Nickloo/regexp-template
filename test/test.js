@@ -1,6 +1,6 @@
 'use strict';
 const expect = require('chai').expect;
-const { number, idCard_zh,number_n } = require('../dist/index')
+const { number, idCard_zh, number_n } = require('../dist/index')
 
 describe('regexp-template number test', () => {
   it('should return true', () => {
@@ -46,7 +46,7 @@ describe('regexp-template number_n test', () => {
 
 describe('regexp-template number_n test', () => {
   it('should return false', () => {
-    const result = number_n(3).test("1233")
+    const result = number_n(3).test("1112")
     expect(result).to.equal(false);
   });
 });
