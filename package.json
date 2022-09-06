@@ -1,5 +1,5 @@
 {
-  "name": "regexp-template",
+  "name": "mz-regexp-template",
   "version": "0.0.5",
   "description": "",
   "main": "./dist/index.js",
